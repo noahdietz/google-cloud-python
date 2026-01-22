@@ -2,7 +2,7 @@ image: us-central1-docker.pkg.dev/cloud-sdk-librarian-prod/images-prod/python-li
 libraries:
   - id: google-cloud-compute
     version: 1.42.0-preview.1
-    last_generated_commit: 9fb55c416c90ff9e14f7101d68394eb9fca5918b
+    last_generated_commit: 796e0498a680b69e190cea73433eae522e74578a
     apis:
       - path: google/cloud/compute/v1
         service_config: compute_v1.yaml
@@ -17,4 +17,3 @@ libraries:
     remove_regex:
       - packages/google-cloud-compute/
     tag_format: '{id}-v{version}'
-  

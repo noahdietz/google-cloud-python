@@ -173,6 +173,11 @@ class TargetTcpProxiesTransport(abc.ABC):
                 default_timeout=None,
                 client_info=client_info,
             ),
+            self.test_iam_permissions: gapic_v1.method.wrap_method(
+                self.test_iam_permissions,
+                default_timeout=None,
+                client_info=client_info,
+            ),
         }
 
     def close(self):
@@ -247,6 +252,17 @@ class TargetTcpProxiesTransport(abc.ABC):
     ) -> Callable[
         [compute.SetProxyHeaderTargetTcpProxyRequest],
         Union[compute.Operation, Awaitable[compute.Operation]],
+    ]:
+        raise NotImplementedError()
+
+    @property
+    def test_iam_permissions(
+        self,
+    ) -> Callable[
+        [compute.TestIamPermissionsTargetTcpProxyRequest],
+        Union[
+            compute.TestPermissionsResponse, Awaitable[compute.TestPermissionsResponse]
+        ],
     ]:
         raise NotImplementedError()
 

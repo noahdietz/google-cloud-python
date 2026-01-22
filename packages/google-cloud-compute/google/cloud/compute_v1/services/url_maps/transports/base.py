@@ -173,6 +173,11 @@ class UrlMapsTransport(abc.ABC):
                 default_timeout=None,
                 client_info=client_info,
             ),
+            self.test_iam_permissions: gapic_v1.method.wrap_method(
+                self.test_iam_permissions,
+                default_timeout=None,
+                client_info=client_info,
+            ),
             self.update: gapic_v1.method.wrap_method(
                 self.update,
                 default_timeout=None,
@@ -253,6 +258,17 @@ class UrlMapsTransport(abc.ABC):
     ) -> Callable[
         [compute.PatchUrlMapRequest],
         Union[compute.Operation, Awaitable[compute.Operation]],
+    ]:
+        raise NotImplementedError()
+
+    @property
+    def test_iam_permissions(
+        self,
+    ) -> Callable[
+        [compute.TestIamPermissionsUrlMapRequest],
+        Union[
+            compute.TestPermissionsResponse, Awaitable[compute.TestPermissionsResponse]
+        ],
     ]:
         raise NotImplementedError()
 

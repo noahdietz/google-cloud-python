@@ -105,7 +105,7 @@ class InstancesClientMeta(type):
 
 
 class InstancesClient(metaclass=InstancesClientMeta):
-    """The Instances API."""
+    """The Instances API client. Hello, world!"""
 
     @staticmethod
     def _get_default_mtls_endpoint(api_endpoint):

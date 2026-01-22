@@ -158,6 +158,11 @@ class RoutesTransport(abc.ABC):
                 default_timeout=None,
                 client_info=client_info,
             ),
+            self.test_iam_permissions: gapic_v1.method.wrap_method(
+                self.test_iam_permissions,
+                default_timeout=None,
+                client_info=client_info,
+            ),
         }
 
     def close(self):
@@ -201,6 +206,17 @@ class RoutesTransport(abc.ABC):
     ) -> Callable[
         [compute.ListRoutesRequest],
         Union[compute.RouteList, Awaitable[compute.RouteList]],
+    ]:
+        raise NotImplementedError()
+
+    @property
+    def test_iam_permissions(
+        self,
+    ) -> Callable[
+        [compute.TestIamPermissionsRouteRequest],
+        Union[
+            compute.TestPermissionsResponse, Awaitable[compute.TestPermissionsResponse]
+        ],
     ]:
         raise NotImplementedError()
 
