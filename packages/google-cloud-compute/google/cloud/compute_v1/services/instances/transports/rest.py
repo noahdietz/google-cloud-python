@@ -2911,7 +2911,7 @@ class InstancesRestStub:
 class InstancesRestTransport(_BaseInstancesRestTransport):
     """REST backend synchronous transport for Instances.
 
-    The Instances API.
+    The Instances API client. Hello, world!
 
     This class defines the same methods as the primary client, so the
     primary client can load the underlying transport implementation
