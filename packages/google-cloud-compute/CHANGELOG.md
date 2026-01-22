@@ -4,6 +4,13 @@
 
 [1]: https://pypi.org/project/google-cloud-compute/#history
 
+## [1.43.0-preview.1](https://github.com/googleapis/google-cloud-python/compare/google-cloud-compute-v1.42.0-preview.1...google-cloud-compute-v1.43.0-preview.1) (2026-01-22)
+
+
+### Features
+
+* generate libraries (#1) ([c427cefed8f15bbfdd0713081d522e515a39c9ef](https://github.com/googleapis/google-cloud-python/commit/c427cefed8f15bbfdd0713081d522e515a39c9ef))
+
 ## [1.42.0](https://github.com/googleapis/google-cloud-python/compare/google-cloud-compute-v1.41.0...google-cloud-compute-v1.42.0) (2026-01-09)
 
 

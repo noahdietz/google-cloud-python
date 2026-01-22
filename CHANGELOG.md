@@ -59,7 +59,7 @@ Changelogs
 - [google-cloud-commerce-consumer-procurement==0.4.0](https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-commerce-consumer-procurement/CHANGELOG.md)
 - [google-cloud-common==1.8.0](https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-common/CHANGELOG.md)
 - [google-cloud-compute-v1beta==0.5.0](https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-compute-v1beta/CHANGELOG.md)
-- [google-cloud-compute==1.42.0](https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-compute/CHANGELOG.md)
+- [google-cloud-compute==1.43.0-preview.1](https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-compute/CHANGELOG.md)
 - [google-cloud-confidentialcomputing==0.7.0](https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-confidentialcomputing/CHANGELOG.md)
 - [google-cloud-config==0.4.0](https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-config/CHANGELOG.md)
 - [google-cloud-configdelivery==0.3.0](https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-configdelivery/CHANGELOG.md)
