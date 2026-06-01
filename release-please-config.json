@@ -9,7 +9,8 @@
       "prerelease": true,
       "prerelease-type": "preview",
       "extra-files": [
-        "gapic_version.py"
+        "preview-packages/google-cloud-compute/google/cloud/compute/gapic_version.py",
+        "preview-packages/google-cloud-compute/google/cloud/compute_v1/gapic_version.py"
       ]
     }
   }
