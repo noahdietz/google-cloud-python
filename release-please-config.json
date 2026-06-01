@@ -7,7 +7,10 @@
       "package-name": "google-cloud-compute",
       "versioning": "prerelease",
       "prerelease": true,
-      "prerelease-type": "preview"
+      "prerelease-type": "preview",
+      "extra-files": [
+        "gapic_version.py"
+      ]
     }
   }
 }
