@@ -1714,6 +1714,22 @@ libraries:
       - packages/google-cloud-compute/README.rst
       - packages/google-cloud-compute/docs/
     tag_format: '{id}-v{version}'
+  - id: google-cloud-compute-preview
+    version: 1.48.0-preview.1
+    last_generated_commit: ""
+    apis:
+      - path: google/cloud/compute/v1
+    source_roots:
+      - preview-packages/google-cloud-compute
+    preserve_regex: []
+    remove_regex: []
+    release_exclude_paths:
+      - preview-packages/google-cloud-compute/.repo-metadata.json
+      - preview-packages/google-cloud-compute/noxfile.py
+      - preview-packages/google-cloud-compute/tests/
+      - preview-packages/google-cloud-compute/README.rst
+      - preview-packages/google-cloud-compute/docs/
+    tag_format: google-cloud-compute-v{version}
   - id: google-cloud-compute-v1beta
     version: 0.11.0
     last_generated_commit: 256b575f6915282b20795c13414b21f2c0af65db
