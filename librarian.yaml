@@ -1257,6 +1257,13 @@ libraries:
       - path: google/cloud/gkerecommender/v1
     python:
       default_version: v1
+  - name: google-cloud-gshoe
+    version: 0.0.0
+    apis:
+      - path: google/cloud/gshoe/v1
+    copyright_year: "2026"
+    python:
+      default_version: v1
   - name: google-cloud-gsuiteaddons
     version: 0.5.1
     apis:

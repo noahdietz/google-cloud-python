@@ -17,6 +17,18 @@
         }
       ]
     },
+    "packages/google-cloud-gshoe": {
+      "component": "google-cloud-gshoe",
+      "extra-files": [
+        "google/cloud/gshoe/gapic_version.py",
+        "google/cloud/gshoe_v1/gapic_version.py",
+        {
+          "jsonpath": "$.clientLibrary.version",
+          "path": "samples/generated_samples/snippet_metadata_google.cloud.gshoe.v1.json",
+          "type": "json"
+        }
+      ]
+    },
     "packages/google-cloud-productregistry": {
       "component": "google-cloud-productregistry",
       "extra-files": [
